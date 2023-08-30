@@ -28,12 +28,14 @@ const App = () => {
         </div>
         
       <div>
+        <ul>
         {
           taskList.map(task=>
-            <div className="listItems" key={task.id}>
+            <li className="listItems" key={task.id}>
               <p>{task.name}</p><button onClick={()=>deleteTask(task.id)}>Delete</button>
-            </div>)
+            </li>)
         }
+        </ul>
       </div>
 
 
