@@ -1,1 +1,15 @@
+.listItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+h3{
+    text-align: center;
+}
+
+.inputfield{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
