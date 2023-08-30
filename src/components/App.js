@@ -32,7 +32,7 @@ const App = () => {
         {
           taskList.map(task=>
             <li className="listItems" key={task.id}>
-              <p>{task.name}</p><button onClick={()=>deleteTask(task.id)}>Delete</button>
+              <p>{task.name}</p><button onClick={()=>deleteTask(task.id)}>DeleteButton</button>
             </li>)
         }
         </ul>
